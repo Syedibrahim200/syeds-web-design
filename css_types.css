@@ -1,0 +1,50 @@
+h1 {
+  background-color: crimson;
+  border-style: double;
+  border-color: burlywood;
+  border-width: 20px;
+  text-align: center;
+  margin: 25px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+p {
+  border-style: dashed;
+  padding: 12px;
+  background-color: blanchedalmond;
+  margin: 30px;
+  border-radius: 30px;
+}
+h2 {
+  color: aqua;
+  background-color: brown;
+  border-style: ridge;
+  border-color: darkolivegreen;
+  border-top-width: 3px;
+  border-top-style: dashed;
+  margin:30px;
+  border-radius: 9px;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+li:hover {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  background-color: burlywood;
+  border-style: solid;
+  margin-right: 35cap;
+  text-shadow: 4px 4px 6px rgb(235, 9, 9);
+}
+h3{
+    border-style: groove;
+    border-color: brown;
+    background-color: coral;
+}
+h1:hover{
+    color: darkgray;
+    font-variant: small-caps;
+}
+h4{
+    text-shadow: 4px 4px 6px rgb(235, 9, 9);;
+}

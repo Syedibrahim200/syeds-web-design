@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      form {
+        width: 600px;
+      }
+    </style>
+    <h2 class="text-center text-info py-3 shadow fw-bold">Contact us form</h2>
+    <form
+      action="https://formspree.io/f/mykaleya"
+      method="post"
+      class="shadow rounded-4 mx-auto p-5"
+    >
+      <div class="m-3">
+        <label for="Name textbox" class="form-label fw-bold">Name</label>
+        <input
+          type="text"
+          name="Name textbox"
+          id="Name textbox"
+          class="form-control"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="m-3">
+        <label for="emailTextbox" class="form-label fw-bold">Email</label>
+        <input
+          type="text"
+          name="emailTextbox"
+          id="emailTextbox"
+          class="form-control"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="m-3">
+        <label for="subjectTextbox" class="form-label fw-bold">Subject</label>
+        <input
+          type="text"
+          name="subjectTextbox"
+          id="subjectTextbox"
+          class="form-control"
+          placeholder="Enter subject"
+        />
+      </div>
+      <div class="m-3">
+        <label for="messageTextbox" class="form-label fw-bold">Message</label>
+        <textarea
+          type="text"
+          name="messageTextbox"
+          id="messageTextbox"
+          class="form-control"
+          placeholder="Enter a text message"
+          row="4"
+        ></textarea>
+      </div>
+      <div>
+        <input
+          type="submit"
+          value="send message"
+          class="btn btn-primary btn-lg w-100"
+        />
+      </div>
+    </form>
+  </body>
+</html>
