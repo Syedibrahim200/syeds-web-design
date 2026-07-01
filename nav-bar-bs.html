@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
+  <!-- Style -->
   <style>
     .hero {
       background:
@@ -24,12 +25,14 @@
       align-items: center;
     }
   </style>
+  <!-- Body -->
   <body>
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#"
-          ><span class="text-light">FL</span
-          ><span class="text-danger">A</span></a
+        <a class="navbar-brand display fw-bold" href="#"
+          ><span class="text-light">Future Leaders</span>
+          <span class="text-danger">Academy</span></a
         >
         <button
           class="navbar-toggler"
@@ -45,12 +48,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-light" aria-current="page" href="#"
-                >Home</a
-              >
+              <a class="nav-link text-light" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">About</a>
+              <a class="nav-link text-light" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Courses</a>
@@ -62,7 +63,8 @@
         </div>
       </div>
     </nav>
-    <section class="hero">
+    <!-- Hero Session -->
+    <section class="hero" id="home">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 text-center text-lg-start">
@@ -83,6 +85,46 @@
               <a href="#contact" class="btn btn-outline-light btn-lg">
                 Get Started
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="images/office image.jpg"
+              alt="office photo"
+              class="img-fluid rounded shadow-lg"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mb-4 mt-4">
+              <h3 class="fw-bold display-5">About Us</h3>
+              <p class="text-muted fs-5">
+                At FLA Academy we provide organizations and individuals with a
+                complete training offerings solutions.Debitis animi reiciendis
+                reprehenderit,
+              </p>
+              <p class="text-muted fs-5">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                consequatur labore suscipit id, possimus accusamus dolores quae
+                accusantium illo? facilis assumenda tempora veritatis quisquam
+                cumque quod?
+              </p>
+              <div class="row mt-5">
+                <div class="col-5">
+                  <h4 class="text-primary mb-2 fw-bold fs-3">250+</h4>
+                  <p>Projects Completed</p>
+                </div>
+                <div class="col-6">
+                  <h4 class="text-primary mb-2 fw-bold fs-3">120+</h4>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
